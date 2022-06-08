@@ -1,3 +1,46 @@
+***
+
+## VisualStudio Code : `Start Angular`
+
+1. `Node js` 설치 `버전 중요`
+2. VS Code -> 플러그인
+> * Angular Snippets
+3. VS Code -> 터미널
+* `node --version, npm --version`
+4. `npm install -g typescript`
+5. `npm install -g @anguular/cli`
+6. `ng new my-app`
+* ? Do you want to enforce stricter type checking and stricter bundle budgets in t
+he workspace? : `n`
+* 라이팅 추가 : `y`
+* 방향기로 CSS 선택
+
+## 서버 시작
+
+1. VS Code -> 터미널
+2. cd my-app
+3. `ng serve -open`
+
+## 서버 종료
+
+1. VS Code -> 터미널
+2. `Ctrl + C`
+
+## Git 연동
+
+1. git 설치
+2. github 레파지토리 생성 - `기본설정`
+3. VS Code -> 터미널
+4. cd my-app
+5. `git init`
+6. `git remote add origin [url]`
+7. `git add .`
+8. `git commit -m "[comment]"`
+9. `git push origin master`
+* 단계 별로 천천히 진행 추천
+
+***
+
 # MyApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
